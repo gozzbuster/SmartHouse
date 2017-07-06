@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="AdventureWorksCommandSet_en-us">
+    <CommandPrefix> In my project </CommandPrefix>
+    <Example> Switch the light </Example>
+
+    <Command Name="lightOn">
+      <Example>Turn on a light </Example>
+      <ListenFor>Turn on the light in the {room} </ListenFor>
+      <Feedback>Turning on the light in the {room} </Feedback>
+      <Navigate />
+    </Command>
+    <Command Name="lightOnByTime">
+      <Example>Turn on a light </Example>
+      <ListenFor>Turn on the light in the {room} at {hours}:{minutes} </ListenFor>
+      <Feedback>the light will switch in the {room} at {hours} {minutes} </Feedback>
+      <Navigate />
+    </Command>
+    <Command Name="lightOff">
+      <Example> turn off a light </Example>
+      <ListenFor> turn off the light in the {room} </ListenFor>
+      <Feedback> turning off the light in the {room} </Feedback>
+      <Navigate />
+    </Command>
+    <Command Name="lightOffByTime">
+      <Example> turn off a light </Example>
+      <ListenFor> turn off the light in the {room} at {hours}:{minutes} </ListenFor>
+      <Feedback> OK the light will switch in the {room} at {hours} {minutes} </Feedback>
+      <Navigate />
+    </Command>
+    <PhraseList Label="room">
+    <Item>Bedroom</Item>
+    <Item>Kitchen</Item>
+    <Item>Living room</Item>
+    <Item>Corridor</Item>
+    <Item>Hall</Item>
+    <Item>Nursery</Item>
+  </PhraseList>
+  <PhraseList Label="hours">
+    <Item>1</Item>
+    <Item>2</Item>
+    <Item>3</Item>
+    <Item>4</Item>
+    <Item>5</Item>
+    <Item>6</Item>
+    <Item>7</Item>
+    <Item>8</Item>
+    <Item>9</Item>
+    <Item>10</Item>
+    <Item>11</Item>
+    <Item>12</Item>
+  </PhraseList>
+   <PhraseList Label="minutes">
+    <Item>00</Item>
+    <Item>01</Item>
+    <Item>02</Item>
+    <Item>03</Item>
+    <Item>04</Item>
+    <Item>05</Item>
+    <Item>06</Item>
+    <Item>07</Item>
+    <Item>08</Item>
+    <Item>09</Item>
+    <Item>10</Item>
+    <Item>11</Item>
+    <Item>12</Item>
+    <Item>13</Item>
+    <Item>14</Item>
+    <Item>15</Item>
+    <Item>16</Item>
+    <Item>17</Item>
+    <Item>18</Item>
+    <Item>19</Item>
+    <Item>20</Item>
+    <Item>21</Item>
+    <Item>22</Item>
+    <Item>23</Item>
+    <Item>24</Item>
+    <Item>25</Item>
+    <Item>26</Item>
+    <Item>27</Item>
+    <Item>28</Item>
+    <Item>29</Item>
+    <Item>30</Item>
+    <Item>31</Item>
+    <Item>32</Item>
+    <Item>33</Item>
+    <Item>34</Item>
+    <Item>35</Item>
+    <Item>36</Item>
+    <Item>37</Item>
+    <Item>38</Item>
+    <Item>39</Item>
+    <Item>40</Item>
+    <Item>41</Item>
+    <Item>42</Item>
+    <Item>43</Item>
+    <Item>44</Item>
+    <Item>45</Item>
+    <Item>46</Item>
+    <Item>47</Item>
+    <Item>48</Item>
+    <Item>49</Item>
+    <Item>50</Item>
+    <Item>51</Item>
+    <Item>52</Item>
+    <Item>53</Item>
+    <Item>54</Item>
+    <Item>55</Item>
+    <Item>56</Item>
+    <Item>57</Item>
+    <Item>58</Item>
+    <Item>59</Item>
+  </PhraseList>
+  </CommandSet>
+</VoiceCommands>
